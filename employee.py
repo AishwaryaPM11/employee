@@ -1,15 +1,15 @@
-def employee_details(name, emp_id, department, salary):
-    result=(
-        f"Employee Name:{name}\n"
-        f"Employee ID : {emp_id}\n"
-        f"Department : {department}\n"
-        f"Salary : {salary}"
+def employee_details(name,emp_id,department,salary):
+    result = (
+        f"Employee_Name:{name}\n"
+        f"Employee_ID:{emp_id}\n"
+        f"Department:{department}\n"
+        f"Salary:{salary}"
     )
     return result
-if _name_ =="_main_":
+
+if _name_ == "_main_":
     name="Alice"
     emp_id="E1001"
     department="IT"
     salary=55000
-
-    print(employee_details(name, emp_id, department, salary))
+    print(employee_details(name,emp_id,department,salary))
